@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1 th:if="${sumThreeNumbers > 10}">Result: [[${sumThreeNumbers}]]</h1>
+<h1 th:if="${sumThreeNumbers < 10}">Result less than 10</h1>
+</body>
+</html>
